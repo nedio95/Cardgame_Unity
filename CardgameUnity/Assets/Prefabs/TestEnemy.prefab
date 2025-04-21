@@ -538,7 +538,8 @@ GameObject:
   - component: {fileID: 3573880306047951062}
   - component: {fileID: 2800751874600615685}
   - component: {fileID: 6571625854815684421}
-  - component: {fileID: -5860729754555550099}
+  - component: {fileID: 1594996836561160259}
+  - component: {fileID: 5714236772616981126}
   m_Layer: 5
   m_Name: TestEnemy
   m_TagString: Untagged
@@ -604,7 +605,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &-5860729754555550099
+--- !u!114 &1594996836561160259
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -613,7 +614,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 9179677923680011789}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d491a697f8db9244aa2ba71ac814de1, type: 3}
+  m_Script: {fileID: 11500000, guid: 494b0301336d1be47894dac7d8b73d0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attack: 1
+  HitPoints: 3
+  Level: 1
+  row: 0
+  col: 0
+  attackText: {fileID: 0}
+  healthText: {fileID: 0}
+--- !u!114 &5714236772616981126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9179677923680011789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 494b0301336d1be47894dac7d8b73d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Attack: 1

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bb7397264563474798cc53c87122ccd, type: 3}
+  m_Name: Shock
+  m_EditorClassIdentifier: 
+  cardName: Shock
+  cost: 0
+  artwork: {fileID: -1276851855702364539, guid: 14bf694f35964dc4f96a6fe38a780f1b, type: 3}
+  effect: {fileID: 11400000, guid: 61effd1f6cbbda348b1e050144f19781, type: 2}

@@ -60,4 +60,13 @@ public class Enemy : MonoBehaviour
     {
         GameManager.Instance.TakeDamage(Attack);
     }
+
+    public void TakeDamage(int damageTaken)
+    {
+        HitPoints -= damageTaken;
+        if (HitPoints < 1)
+            Debug.Log("This enemy is dead.");
+        UpdateDisplay();
+        // TODO: Remove from stack and destroy
+    }
 }

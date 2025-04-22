@@ -147,4 +147,16 @@ public class EnemyManager : MonoBehaviour
         }
     }
 
+    public Enemy GetTopEnemyAt(int row, int col)
+    {
+        var key = (row, col);
+        if (enemyStacks.TryGetValue(key, out var stack) && stack.Count > 0)
+        {
+            return stack[0]; // top of the stack is always index 0 after sorting
+        }
+
+        return null;
+    }
+
+
 }
